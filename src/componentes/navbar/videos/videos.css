@@ -1,0 +1,18 @@
+.videos-content{
+
+    flex-wrap: nowrap;
+    width: 100%;
+    
+    background-color:rgba(128, 128, 128, 0.279);
+    padding: 10px;
+}
+.videos{
+    margin: 5px;
+    width: 250px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.801);
+    
+}
+h2{
+    color: white;
+}

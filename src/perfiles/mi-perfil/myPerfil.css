@@ -1,0 +1,123 @@
+.miPerfil h1{
+    color: white;
+}
+.perfil-portada{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(88, 85, 85);
+    position: relative;
+    
+}
+.content-link-opcion{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(71, 70, 70, 0.801);
+    position: relative;
+    
+   text-align: end; 
+   
+}
+.link-user-opcion{
+    color: white;
+    margin: 10px;
+    position: relative;
+    bottom: 140px;
+    font-size: 20px;
+cursor: pointer;
+
+}
+
+.img-perfil{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+position: relative;
+bottom: 100px;
+display: flex;
+justify-content: center;
+align-items: end;
+
+}
+.img-perfil img {
+    /* Estilos de la imagen dentro del contenedor */
+    width: 200px; /* Para asegurar que la imagen ocupe todo el ancho del div */
+    height:200px; /* La altura se ajusta automáticamente para mantener la proporción */
+    object-fit:fill; /* Ajusta la imagen dentro del contenedor, recortándola si es necesario */
+    border-radius: 50%;
+    
+  }
+.name-user{
+    color: white;
+    position: absolute;
+text-align:left;
+bottom: 0;
+left: 225px;
+    font-size: 25px;
+}
+
+.perfil-navegacion{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(69, 67, 67, 0.205);
+position: relative;
+top: -200px;
+
+}
+/* obcionbar*/
+.opcionBar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(23, 26, 29);
+    display: flex;
+    padding-left: 100px;
+}
+.links-opcion-bar{
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+}
+.info-content-perfil{
+    width: 40%;
+    padding: 20px;
+    background-color:rgba(71, 70, 70, 0.801); ;
+    color: white;
+}
+.content-infoEndVideos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.videosEnPerfil{
+    width: 40%;
+    background-color: aliceblue;
+overflow:auto;
+
+
+}
+.videos-content{
+display: flex;
+flex-wrap: wrap;    
+justify-content: center;
+
+}
+.videosPerfil{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(57, 56, 56, 0.687);
+    margin: 10px;
+    
+}
+.infoPerfil h1{
+margin-left: 110px;
+
+
+}
+/*btn perfil foto*/
+.input-file-foto{
+    color: aliceblue;
+    display: none; /*para que el input de subir las fotos no se vean*/
+}

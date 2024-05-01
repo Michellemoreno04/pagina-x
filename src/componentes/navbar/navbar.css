@@ -1,0 +1,60 @@
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #000c33;
+    
+}
+.search-bar{
+    width: 300px;
+    height: 25px;
+    border-radius: 15px;
+}
+.search-bar::placeholder{
+    padding-left: 15px;
+
+}
+.activos{ 
+    display: flex;
+width: 10px;
+height: 10px;
+background-color: green;
+border-radius: 50%;
+margin: 5px;
+}
+.total-envivo{
+display:flex;
+align-items: center;
+}
+.total-envivo p{
+    color: white;
+}
+
+.submenu{
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+
+}
+.links-submenu{
+    display: flex;
+    color:white;
+    justify-content: center;
+}
+.link-submenu{
+    color: white;
+    margin: 15px;
+    
+
+}
+.link-submenu:hover{
+    text-decoration:none;
+    color: rgba(234, 83, 83, 0.952);
+}
+.myPerfil{
+    color: white;
+padding-left: 25px;
+}
